@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "195565641933",
+    "project_id": "dot-thenoteapp-1122",
+    "storage_bucket": "dot-thenoteapp-1122.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:195565641933:android:276536ff2c9980a436c984",
+        "android_client_info": {
+          "package_name": "com.dot.dot"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDp0jHOCns8E2w-IxGawxVgWk2IO6ZSJfo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
