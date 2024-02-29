@@ -1,4 +1,5 @@
 import 'package:dot/model/notes_model.dart';
+import 'package:dot/view/splash_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:hive_flutter/adapters.dart';
 
@@ -17,6 +18,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
+      home: SplashScreen(),
       debugShowCheckedModeBanner: false,
     );
   }

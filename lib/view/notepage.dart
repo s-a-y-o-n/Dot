@@ -16,9 +16,9 @@ class NotePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: ColorConstants.cardcolor,
+      backgroundColor: ColorConstants.secondarycolor2,
       appBar: AppBar(
-        backgroundColor: ColorConstants.cardcolor,
+        backgroundColor: ColorConstants.secondarycolor2,
         elevation: 0,
       ),
       body: Padding(
@@ -32,7 +32,8 @@ class NotePage extends StatelessWidget {
                 Text(
                   date,
                   style: TextStyle(
-                      color: ColorConstants.primarycolor, fontSize: 15),
+                      color: ColorConstants.primarybackgroundcolor,
+                      fontSize: 15),
                 ),
               ],
             ),
@@ -42,21 +43,21 @@ class NotePage extends StatelessWidget {
             Text(
               title,
               style: TextStyle(
-                  color: ColorConstants.primarycolor,
+                  color: ColorConstants.primarybackgroundcolor,
                   fontSize: 25,
                   fontWeight: FontWeight.w600),
             ),
             Text(
               "* $category",
-              style:
-                  TextStyle(color: ColorConstants.secondarycolor, fontSize: 15),
+              style: TextStyle(
+                  color: ColorConstants.primarybackgroundcolor, fontSize: 15),
             ),
             SizedBox(
               height: 30,
             ),
             Text(
               description,
-              style: TextStyle(color: ColorConstants.primarycolor),
+              style: TextStyle(color: ColorConstants.primarybackgroundcolor),
             )
           ],
         ),
